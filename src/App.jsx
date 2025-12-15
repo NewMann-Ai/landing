@@ -1,15 +1,17 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Newsletter from "./pages/Newsletter";
-import { Routes, Route } from "react-router-dom";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
-    return (
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/newsletter" element={<Newsletter />} />
-        </Routes>
-    );
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/newsletter" element={<Newsletter />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+    </Routes>
+  );
 }
 
 export default App;
