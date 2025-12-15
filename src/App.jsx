@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Newsletter from "./pages/Newsletter";
-import TermsAndConditions from "./pages/TermsAndConditions";
+import TermsAndConditions from "./pages/Terms";
 
 function App() {
   return (
