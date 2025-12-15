@@ -172,6 +172,8 @@
 
 .terms-conditions {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .terms-title {
@@ -181,6 +183,11 @@
 .terms-conditions span {
   background-color: transparent;
   color: black !important;
+  margin: 0;
+}
+
+.terms-conditions input {
+  margin: 0 !important;
 }
 
 .terms-link {
