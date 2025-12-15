@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+:root {
+    --primary: #229799;
+    --primary-hover: #1e7e7e;
+    --primary-10: #2297991a;
+    --primary-50: #2297995a;
+    --bg: #f9fafb;
+    --bento-bg: #ffffff;
+    --stroke: #e4e7ec;
+    --bar-separator: #f3f4f7;
+    --icon: #777c88;
+    --title: #1d2939;
+    --text: #344054;
+    --white-text: #ffffff;
+
+    --px50: 50px;
+    --px40: 40px;
+    --px20: 20px;
+    --px16: 16px;
+    --px12: 12px;
+}
+
+body {
+    background-color: var(--bg);
+    overflow-x: hidden;
+}
+
+main {
+    padding: 0 8vw;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1024px) {
+    main {
+        padding: 0 2vw;
+    }
+}

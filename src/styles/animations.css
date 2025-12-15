@@ -1,0 +1,82 @@
+/* Animation Keyframes */
+@keyframes slideUpBlur {
+    from {
+        opacity: 0;
+        transform: translateY(60px);
+        filter: blur(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+/* Base class for animated sections */
+.animate-section {
+    opacity: 0;
+    transform: translateY(60px);
+    filter: blur(10px);
+    transition: none;
+}
+
+/* When section becomes visible */
+.animate-section.visible {
+    animation: slideUpBlur 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Stagger animations for multiple elements */
+.animate-section.visible.delay-1 {
+    animation-delay: 0.1s;
+}
+
+.animate-section.visible.delay-2 {
+    animation-delay: 0.2s;
+}
+
+.animate-section.visible.delay-3 {
+    animation-delay: 0.3s;
+}
+
+.animate-section.visible.delay-4 {
+    animation-delay: 0.4s;
+}
+
+.animate-section.visible.delay-5 {
+    animation-delay: 0.5s;
+}
+
+/* For child elements that should animate with stagger */
+.animate-children > * {
+    opacity: 0;
+    transform: translateY(60px);
+    filter: blur(10px);
+}
+
+.animate-children.visible > * {
+    animation: slideUpBlur 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.animate-children.visible > *:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.animate-children.visible > *:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animate-children.visible > *:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.animate-children.visible > *:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.animate-children.visible > *:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.animate-children.visible > *:nth-child(6) {
+    animation-delay: 0.6s;
+}
