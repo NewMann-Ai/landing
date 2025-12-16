@@ -28,7 +28,7 @@ function Navbar() {
             <nav className="desktop-nav">
                 <img src={Logo} alt="logo" />
                 <Link to="/newsletter">
-                    <button>Unisciti</button>
+                    <button>Join</button>
                 </Link>
             </nav>
             <nav className="mobile-nav">
@@ -69,23 +69,23 @@ function Navbar() {
                         onClick={(e) => e.stopPropagation()}
                     >
                         <Title
-                            label="Cosa aspetti?"
+                            label="What are you waiting for?"
                             title={
                                 <>
                                     <h1>
-                                        Migliora la tua{" "}
+                                        Improve your{" "}
                                         <h1 className="highlight">
-                                            Produttività
+                                            Productivity
                                         </h1>
                                     </h1>
                                 </>
                             }
-                            description="Iscriviti alla lista d'attesa e rimani aggiornato sulle novità, sulle funzionalità e sulle date di rilascio."
+                            description="Sign up for the waiting list and stay updated on news, features, and release dates."
                             position="center"
                             isHeroTitle={false}
                         />
                         <Link to="/newsletter">
-                            <button>Unisciti alla Waiting List</button>
+                            <button>Join the Waiting List</button>
                         </Link>
                     </div>
                 </div>

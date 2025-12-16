@@ -32,8 +32,8 @@ function Home() {
             >
                 <Title
                     label="AI-Powered Dashboard"
-                    title="Automazione intelligente che potenzia e semplifica il tuo business"
-                    description="Automatizza il lavoro ripetitivo, mantieni tutto sotto controllo e fai crescere il tuo business grazie all'intelligenza artificiale."
+                    title="Intelligent automation that powers and simplifies your business"
+                    description="Automate repetitive work, keep everything under control and grow your business with artificial intelligence."
                     position="center"
                     isHeroTitle={true}
                 />
@@ -50,22 +50,21 @@ function Home() {
                 }`}
             >
                 <Title
-                    label="La nostra soluzione"
+                    label="Our Solution"
                     title={
                         <>
                             <h1>
-                                <h1 className="highlight">Assistente AI</h1>{" "}
-                                Personalizzato
+                                Customized{" "}
+                                <h1 className="highlight">AI Assistant</h1>
                             </h1>
                         </>
                     }
                     description={
                         <>
                             <p>
-                                Gestisci la tua casella di posta senza sforzo
-                                grazie a un'AI altamente adattabile che
-                                semplifica la comunicazione e aumenta la
-                                produttività.
+                                Manage your inbox effortlessly with a highly
+                                adaptable AI that simplifies communication and
+                                boosts productivity.
                             </p>
 
                             <div className="list">
@@ -82,11 +81,11 @@ function Home() {
                                     </svg>
                                     <p>
                                         <strong>
-                                            Gestione intelligente delle email.
+                                            Intelligent email management.
                                         </strong>{" "}
-                                        Organizza automaticamente i messaggi, dà
-                                        priorità a ciò che conta e mantiene la
-                                        tua inbox sotto controllo.
+                                        Automatically organizes messages,
+                                        prioritizes what matters and keeps your
+                                        inbox under control.
                                     </p>
                                 </div>
 
@@ -102,10 +101,9 @@ function Home() {
                                         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0" />
                                     </svg>
                                     <p>
-                                        <strong>Risposte automatiche.</strong>{" "}
-                                        Gestisce le risposte di routine così
-                                        puoi concentrarti sul lavoro di maggior
-                                        valore.
+                                        <strong>Automatic responses.</strong>{" "}
+                                        Handles routine replies so you can focus
+                                        on higher-value work.
                                     </p>
                                 </div>
 
@@ -121,11 +119,9 @@ function Home() {
                                         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0" />
                                     </svg>
                                     <p>
-                                        <strong>
-                                            Analisi della comunicazione.
-                                        </strong>{" "}
-                                        Analizza e struttura i dati comunicativi
-                                        per decisioni più chiare.
+                                        <strong>Communication analysis.</strong>{" "}
+                                        Analyzes and structures communication
+                                        data for clearer decisions.
                                     </p>
                                 </div>
 
@@ -141,10 +137,9 @@ function Home() {
                                         <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0" />
                                     </svg>
                                     <p>
-                                        <strong>Supporto umano.</strong> Ricevi
-                                        assistenza guidata per personalizzare lo
-                                        strumento e adattarlo al tuo flusso di
-                                        lavoro.
+                                        <strong>Human support.</strong> Receive
+                                        guided assistance to customize the tool
+                                        and adapt it to your workflow.
                                     </p>
                                 </div>
 
@@ -153,7 +148,7 @@ function Home() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <button>Scopri come funziona</button>
+                                    <button>Discover how it works</button>
                                 </Link>
                             </div>
                         </>
@@ -173,11 +168,11 @@ function Home() {
                 }`}
             >
                 <Title
-                    label="Membri"
+                    label="Members"
                     title={
                         <>
                             <h1>
-                                Il nostro <h1 className="highlight">Team</h1>
+                                Our <h1 className="highlight">Team</h1>
                             </h1>
                         </>
                     }
@@ -242,21 +237,21 @@ function Home() {
             >
                 <div className="cta">
                     <Title
-                        label="Cosa aspetti?"
+                        label="What are you waiting for?"
                         title={
                             <>
                                 <h1>
-                                    Migliora la tua{" "}
-                                    <h1 className="highlight">Produttività</h1>
+                                    Improve your{" "}
+                                    <h1 className="highlight">Productivity</h1>
                                 </h1>
                             </>
                         }
-                        description="Iscriviti alla lista d'attesa e rimani aggiornato sulle novità, sulle funzionalità e sulle date di rilascio."
+                        description="Sign up for the waiting list and stay updated on news, features, and release dates."
                         position="center"
                         isHeroTitle={false}
                     />
                     <Link to="/newsletter">
-                        <button>Unisciti alla Waiting List</button>
+                        <button>Join the Waiting List</button>
                     </Link>
                     <img src={CTA} alt="call to action logo" />
                 </div>

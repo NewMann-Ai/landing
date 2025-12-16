@@ -25,47 +25,44 @@ const TermsAndConditions = () => {
                 </svg>
             </button>
             <section className="terms-container">
-                <h1 className="terms-title">Informativa Privacy</h1>
+                <h1 className="terms-title">Privacy Policy</h1>
 
                 <p className="subtitle">
-                    (ai sensi dell’art. 13 del Regolamento UE 2016/679 – GDPR)
+                    (pursuant to Article 13 of EU Regulation 2016/679 – GDPR)
                 </p>
 
-                <p className="updated">
-                    Ultimo aggiornamento: 15 dicembre 2025
-                </p>
+                <p className="updated">Last updated: December 15, 2025</p>
 
                 <section>
-                    <h2>1. Titolare del trattamento</h2>
-                    <p>Il Titolare del trattamento dei dati è:</p>
+                    <h2>1. Data Controller</h2>
+                    <p>The Data Controller is:</p>
                     <p>
                         <strong>Newmann</strong>
                         <br />
-                        Titolare: Marco Agrello
+                        Controller: Marco Agrello
                         <br />
-                        Email di contatto:{" "}
+                        Contact email:{" "}
                         <a href="mailto:info@newmann.ai">info@newmann.ai</a>
                     </p>
                 </section>
 
                 <section>
-                    <h2>2. Tipologia di dati raccolti</h2>
+                    <h2>2. Types of Data Collected</h2>
                     <p>
-                        Attraverso questa landing page possono essere raccolti i
-                        seguenti dati personali:
+                        Through this landing page, the following personal data
+                        may be collected:
                     </p>
                     <ul>
-                        <li>nome e cognome</li>
-                        <li>indirizzo email</li>
+                        <li>first and last name</li>
+                        <li>email address</li>
                         <li>
-                            eventuali ulteriori informazioni inserite
-                            volontariamente dall’utente nel form
+                            any additional information voluntarily entered by
+                            the user in the form
                         </li>
                     </ul>
                     <p>
-                        Il conferimento dei dati è facoltativo, ma il mancato
-                        conferimento può rendere impossibile l’erogazione del
-                        servizio richiesto.
+                        Providing data is optional, but failure to provide it
+                        may make it impossible to deliver the requested service.
                     </p>
                 </section>
 
@@ -92,79 +89,80 @@ const TermsAndConditions = () => {
                 </section>
 
                 <section>
-                    <h2>4. Base giuridica del trattamento</h2>
+                    <h2>4. Legal Basis for Processing</h2>
                     <ul>
                         <li>
-                            consenso dell’interessato (art. 6, par. 1, lett. a
+                            consent of the data subject (Article 6, paragraph 1,
+                            letter a GDPR)
+                        </li>
+                        <li>
+                            execution of pre-contractual measures requested by
+                            the data subject (Article 6, paragraph 1, letter b
                             GDPR)
                         </li>
-                        <li>
-                            esecuzione di misure precontrattuali richieste
-                            dall’interessato (art. 6, par. 1, lett. b GDPR)
-                        </li>
                     </ul>
                 </section>
 
                 <section>
-                    <h2>5. Modalità del trattamento</h2>
+                    <h2>5. Methods of Processing</h2>
                     <p>
-                        Il trattamento dei dati avviene mediante strumenti
-                        informatici e telematici, nel rispetto dei principi di
-                        liceità, correttezza, trasparenza e minimizzazione dei
-                        dati.
+                        Data processing is carried out using computer and
+                        telematic tools, in compliance with the principles of
+                        lawfulness, fairness, transparency and data
+                        minimization.
                     </p>
                     <p>
-                        Sono adottate adeguate misure di sicurezza per prevenire
-                        accessi non autorizzati, divulgazione, modifica o
-                        distruzione dei dati.
-                    </p>
-                </section>
-
-                <section>
-                    <h2>6. Conservazione dei dati</h2>
-                    <p>
-                        I dati personali saranno conservati per il tempo
-                        strettamente necessario al raggiungimento delle finalità
-                        per cui sono stati raccolti e, in ogni caso, non oltre i
-                        limiti previsti dalla normativa vigente.
+                        Adequate security measures are adopted to prevent
+                        unauthorized access, disclosure, modification or
+                        destruction of data.
                     </p>
                 </section>
 
                 <section>
-                    <h2>7. Comunicazione e diffusione dei dati</h2>
-                    <p>I dati personali non saranno diffusi.</p>
+                    <h2>6. Data Retention</h2>
                     <p>
-                        Potranno essere comunicati a soggetti terzi
-                        esclusivamente per esigenze tecniche o operative (es.
-                        hosting, servizi email), nominati se necessario
-                        Responsabili del trattamento ai sensi dell’art. 28 GDPR.
+                        Personal data will be retained for the time strictly
+                        necessary to achieve the purposes for which it was
+                        collected and, in any case, not beyond the limits set by
+                        applicable law.
                     </p>
                 </section>
 
                 <section>
-                    <h2>8. Diritti dell’interessato</h2>
+                    <h2>7. Communication and Disclosure of Data</h2>
+                    <p>Personal data will not be disclosed.</p>
+                    <p>
+                        They may be communicated to third parties exclusively
+                        for technical or operational needs (e.g. hosting, email
+                        services), appointed if necessary as Data Processors
+                        pursuant to Article 28 GDPR.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>8. Data Subject Rights</h2>
                     <ul>
-                        <li>accedere ai propri dati personali</li>
-                        <li>richiederne la rettifica o la cancellazione</li>
-                        <li>limitare o opporsi al trattamento</li>
-                        <li>revocare il consenso in qualsiasi momento</li>
+                        <li>access your personal data</li>
+                        <li>request its rectification or erasure</li>
+                        <li>restrict or object to the processing</li>
+                        <li>withdraw consent at any time</li>
                         <li>
-                            proporre reclamo all’Autorità Garante per la
-                            protezione dei dati personali
+                            lodge a complaint with the Supervisory Authority for
+                            personal data protection
                         </li>
                     </ul>
                     <p>
-                        Le richieste possono essere inviate all’indirizzo email
-                        indicato al punto 1.
+                        Requests can be sent to the email address indicated in
+                        point 1.
                     </p>
                 </section>
 
                 <section>
-                    <h2>9. Modifiche alla presente informativa</h2>
+                    <h2>9. Changes to this Privacy Policy</h2>
                     <p>
-                        Il Titolare si riserva il diritto di modificare la
-                        presente informativa in qualsiasi momento. Le modifiche
-                        saranno pubblicate su questa pagina.
+                        The Controller reserves the right to modify this privacy
+                        policy at any time. Changes will be published on this
+                        page.
                     </p>
                 </section>
             </section>

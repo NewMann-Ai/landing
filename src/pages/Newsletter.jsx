@@ -18,7 +18,7 @@ function Newsletter() {
         if (!name || !surname || !email) {
             setStatus({
                 type: "error",
-                message: "Per favore compila tutti i campi",
+                message: "Please fill in all fields",
             });
             return;
         }
@@ -40,14 +40,14 @@ function Newsletter() {
                     user_email: email,
                     user_name: name,
                     user_surname: surname,
-                    message: `${name} ${surname} (${email}) si è unito a Newmann`,
+                    message: `${name} ${surname} (${email}) has joined Newmann`,
                 },
                 publicKey
             );
 
             setStatus({
                 type: "success",
-                message: "Grazie! Ti abbiamo aggiunto alla lista.",
+                message: "Thank you! We've added you to the list.",
             });
             setName("");
             setSurname("");
@@ -56,7 +56,7 @@ function Newsletter() {
             console.error("Error sending email:", error);
             setStatus({
                 type: "error",
-                message: "Errore nell'invio. Riprova più tardi.",
+                message: "Error sending. Please try again later.",
             });
         } finally {
             setIsLoading(false);
@@ -97,20 +97,20 @@ function Newsletter() {
                         >
                             <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
                         </svg>
-                        Unisciti
+                        Join
                     </span>
 
-                    <h1>Entra nella nostra Waiting List</h1>
+                    <h1>Join our Waiting List</h1>
 
                     <p>
-                        Stiamo preparando qualcosa di nuovo. Iscriviti per
-                        essere tra i primi ad accedere alla versione beta.
+                        We're preparing something new. Sign up to be among the
+                        first to access the beta version.
                     </p>
 
                     <form className="input-cont" onSubmit={handleSubmit}>
                         <input
                             type="name"
-                            placeholder="Nome"
+                            placeholder="First Name"
                             aria-label="Name"
                             value={name}
                             onChange={(e) => setName(e.target.value)}
@@ -119,7 +119,7 @@ function Newsletter() {
                         />
                         <input
                             type="surname"
-                            placeholder="Cognome"
+                            placeholder="Last Name"
                             aria-label="Surname"
                             value={surname}
                             onChange={(e) => setSurname(e.target.value)}
@@ -128,7 +128,7 @@ function Newsletter() {
                         />
                         <input
                             type="email"
-                            placeholder="nominativo@gmail.com"
+                            placeholder="yourname@gmail.com"
                             aria-label="Email address"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
@@ -143,18 +143,18 @@ function Newsletter() {
                                 id="terms"
                             />
                             <span>
-                                Accetto i{" "}
+                                I accept the{" "}
                                 <a
                                     className="terms-link"
                                     href="/terms-and-conditions"
                                     rel="noopener noreferrer"
                                 >
-                                    termini e le condizioni
+                                    terms and conditions
                                 </a>
                             </span>
                         </div>
                         <button type="submit" disabled={isLoading}>
-                            {isLoading ? "Invio..." : "Unisciti"}
+                            {isLoading ? "Sending..." : "Join"}
                         </button>
                     </form>
 
