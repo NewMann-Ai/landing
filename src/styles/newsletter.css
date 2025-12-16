@@ -102,8 +102,6 @@
                     width: 90vw;
 
                     & input {
-                        margin-top: 4rem;
-
                         &:focus {
                             outline: none;
                             border-color: var(--primary);
