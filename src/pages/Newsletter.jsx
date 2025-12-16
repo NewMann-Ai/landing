@@ -6,6 +6,8 @@ import "../styles/newsletter.css";
 
 function Newsletter() {
     const navigate = useNavigate();
+    const [name, setName] = useState("");
+    const [surname, setSurname] = useState("");
     const [email, setEmail] = useState("");
     const [status, setStatus] = useState({ type: "", message: "" });
     const [isLoading, setIsLoading] = useState(false);
@@ -13,10 +15,10 @@ function Newsletter() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        if (!email) {
+        if (!name || !surname || !email) {
             setStatus({
                 type: "error",
-                message: "Per favore inserisci un'email",
+                message: "Per favore compila tutti i campi",
             });
             return;
         }
@@ -36,7 +38,9 @@ function Newsletter() {
                 {
                     to_email: "info@newmann.ai",
                     user_email: email,
-                    message: `Utente ${email} si è unito a Newmann`,
+                    user_name: name,
+                    user_surname: surname,
+                    message: `${name} ${surname} (${email}) si è unito a Newmann`,
                 },
                 publicKey
             );
@@ -45,6 +49,8 @@ function Newsletter() {
                 type: "success",
                 message: "Grazie! Ti abbiamo aggiunto alla lista.",
             });
+            setName("");
+            setSurname("");
             setEmail("");
         } catch (error) {
             console.error("Error sending email:", error);
@@ -102,6 +108,24 @@ function Newsletter() {
                     </p>
 
                     <form className="input-cont" onSubmit={handleSubmit}>
+                        <input
+                            type="name"
+                            placeholder="Nome"
+                            aria-label="Name"
+                            value={name}
+                            onChange={(e) => setName(e.target.value)}
+                            required
+                            disabled={isLoading}
+                        />
+                        <input
+                            type="surname"
+                            placeholder="Cognome"
+                            aria-label="Surname"
+                            value={surname}
+                            onChange={(e) => setSurname(e.target.value)}
+                            required
+                            disabled={isLoading}
+                        />
                         <input
                             type="email"
                             placeholder="nominativo@gmail.com"
