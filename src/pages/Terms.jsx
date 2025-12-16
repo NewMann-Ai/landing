@@ -67,24 +67,25 @@ const TermsAndConditions = () => {
                 </section>
 
                 <section>
-                    <h2>3. Finalità del trattamento</h2>
+                    <h2>3. Purpose of Processing</h2>
                     <ul>
                         <li>
-                            ricontattare l’utente a seguito di una richiesta di
-                            informazioni
+                            to contact the user following a request for
+                            information
                         </li>
                         <li>
-                            consentire l’accesso anticipato, la registrazione o
-                            l’inserimento in una lista di attesa
+                            to allow early access, registration or placement on
+                            a waiting list
                         </li>
                         <li>
-                            inviare comunicazioni informative o operative
-                            relative al progetto Newmann
+                            to send informative or operational communications
+                            related to the Newmann project
                         </li>
                     </ul>
                     <p>
-                        I dati non saranno utilizzati per finalità di marketing
-                        aggressivo o ceduti a terzi senza consenso esplicito.
+                        Data will not be used for aggressive marketing purposes
+                        or transferred to third parties without explicit
+                        consent.
                     </p>
                 </section>
 
