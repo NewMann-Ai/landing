@@ -214,8 +214,8 @@ function Home() {
                             <img src={Vladyslav} alt="member card" />
                         </div>
                         <h2>Vladyslav Bukator</h2>
-                        <h3>Frontend & Design</h3>
-                        <h3>Co-Founder</h3>
+                        <h3>Frontend Developer</h3>
+                        <h3>UX/UI Designer</h3>
                     </div>
 
                     <div className="member-card">
@@ -223,7 +223,8 @@ function Home() {
                             <img src={Luisa} alt="member card" />
                         </div>
                         <h2>Luisa Cerin Ogbeiwi</h2>
-                        <h3>Tech Co-Founder</h3>
+                        <h3>Fullstack & AI</h3>
+                        <h3>Developer</h3>
                     </div>
                 </div>
             </section>
