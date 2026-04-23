@@ -6,7 +6,7 @@ import Luisa from "../assets/images/members/luisa.jpeg";
 import Marco from "../assets/images/members/marco.jpg";
 import Stefano from "../assets/images/members/stefano.jpg";
 import Valentina from "../assets/images/members/valentina.jpg";
-import Vladyslav from "../assets/images/members/vladyslav.jpg";
+import Vladyslav from "../assets/images/members/vladyslav.png";
 import Logo from "../assets/logo.png";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
