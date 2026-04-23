@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import CTA from "../assets/cta.png";
 import Dashboard from "../assets/images/dashboard.png";
 import Labels from "../assets/images/labels.png";
-import Luisa from "../assets/images/members/luisa.jpg";
+import Luisa from "../assets/images/members/luisa.jpeg";
 import Marco from "../assets/images/members/marco.jpg";
 import Stefano from "../assets/images/members/stefano.jpg";
 import Valentina from "../assets/images/members/valentina.jpg";
