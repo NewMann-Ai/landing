@@ -7,6 +7,7 @@ import Marco from "../assets/images/members/marco.jpg";
 import Stefano from "../assets/images/members/stefano.jpg";
 import Valentina from "../assets/images/members/valentina.jpg";
 import Vladyslav from "../assets/images/members/vladyslav.png";
+import Luca from "../assets/images/members/luca.jpeg";
 import Logo from "../assets/logo.png";
 import Navbar from "../components/Navbar";
 import Title from "../components/Title";
@@ -223,6 +224,15 @@ function Home() {
                             <img src={Luisa} alt="member card" />
                         </div>
                         <h2>Luisa Cerin Ogbeiwi</h2>
+                        <h3>Fullstack & AI</h3>
+                        <h3>Developer</h3>
+                    </div>
+
+                    <div className="member-card">
+                        <div className="member-image">
+                            <img src={Luca} alt="member card" />
+                        </div>
+                        <h2>Luca Mimmo</h2>
                         <h3>Fullstack & AI</h3>
                         <h3>Developer</h3>
                     </div>
