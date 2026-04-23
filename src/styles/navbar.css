@@ -2,25 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
-    margin-top: 1rem;
+    padding: 20px 40px;
     position: fixed;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
     z-index: 1;
-    width: 80vw;
+    width: 100vw;
 
     /* Glassmorphism */
     background: #ffffff1a;
-    border-radius: 16px;
-    box-shadow: 0 8px 32px 0 #1f268726;
-    backdrop-filter: blur(4px) saturate(180%);
-    -webkit-backdrop-filter: blur(4px) saturate(180%);
-    border: 1px solid #ffffff4d;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 
     & img {
-        width: 100px;
+        width: 140px;
     }
 
     & button {
@@ -53,25 +49,21 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-top: 1rem;
         position: fixed;
-        padding: 10px;
+        padding: 20px;
         top: 0;
         left: 50%;
         transform: translate(-50%, 0);
         z-index: 100;
-        width: 90vw;
+        width: 100vw;
 
         /* Glassmorphism */
         background: #ffffff1a;
-        border-radius: 16px;
-        box-shadow: 0 8px 32px 0 #1f268726;
-        backdrop-filter: blur(4px) saturate(180%);
-        -webkit-backdrop-filter: blur(4px) saturate(180%);
-        border: 1px solid #ffffff4d;
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
 
         & img {
-            width: 80px;
+            width: 100px;
         }
 
         & button {

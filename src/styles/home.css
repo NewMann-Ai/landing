@@ -59,7 +59,7 @@ button {
         width: 100%;
         max-width: 900px;
         border-radius: 16px;
-        box-shadow: 0 0 20px 10px var(--primary-50);
+        box-shadow: 0 0 20px 10px var(--primary-10);
     }
 }
 
@@ -125,7 +125,8 @@ button {
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: aiGlow 3s linear infinite;
-            text-shadow: 0 1px 3px rgba(34, 151, 153, 0.25),
+            text-shadow:
+                0 1px 3px rgba(34, 151, 153, 0.25),
                 0 2px 6px rgba(106, 35, 236, 0.18);
             margin-top: 4px;
         }
@@ -267,7 +268,7 @@ button {
         width: 100vw;
         height: auto;
         object-fit: contain;
-        opacity: 0.025;
+        opacity: 0.06;
     }
 }
 
